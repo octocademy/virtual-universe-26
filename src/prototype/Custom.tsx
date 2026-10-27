@@ -344,6 +344,7 @@ function CliActions() {
       <Button
         as="a"
         href="https://github.com/codespaces/new/octodemo/virtual-universe-26?ref=main&utm_source=virtual-universe-26-insider-resources-cta-bottom-codespace&utm_medium=web&utm_campaign=universe-2026"
+        data-analytics-click="Virtual Universe resources, CTA click, cta: try-in-codespaces; location: cli"
         target="_blank"
         rel="noopener noreferrer"
         variant="primary"
@@ -364,6 +365,7 @@ function ArtifactActions() {
       <Button
         as="a"
         href="https://github.com/octodemo/virtual-universe-26/tree/main/github-virtual-universe-highlights/attach-a-cheat-sheet-artifact"
+        data-analytics-click="Virtual Universe resources, CTA click, cta: create-artifact; location: artifacts"
         variant="primary"
         size="medium"
       >
@@ -385,6 +387,7 @@ function AutomationActions() {
         <Button
           as="a"
           href="https://github.com/copilot/app/launch?open=ghapp%3A%2F%2Fsession%2Fnew%3Frepo%3Doctodemo%252Fvirtual-universe-26%26canvas%3Duniverse-welcome&utm_source=virtual-universe-26-insider-resources-cta-mid-tutorial&utm_medium=web&utm_campaign=universe-2026"
+          data-analytics-click="Virtual Universe resources, CTA click, cta: create-automation; location: automations"
           variant="primary"
           size="medium"
         >
@@ -473,6 +476,7 @@ export default function UniverseWorkshop() {
               <Button
                 as="a"
                 href="https://github.com/features/ai/github-app?utm_source=virtual-universe-26-insider-resources-cta-top-app-download&utm_medium=web&utm_campaign=universe-2026"
+                data-analytics-click="Virtual Universe resources, CTA click, cta: download-copilot-app; location: hero"
                 variant="primary"
                 size="medium"
               >
@@ -609,7 +613,13 @@ export default function UniverseWorkshop() {
             Catch up on all that was announced at GitHub Universe.
           </CTABanner.Heading>
           <CTABanner.ButtonGroup className={styles.keynoteActions}>
-            <Button as="a" href={eventRecap} variant="primary" size="medium">
+            <Button
+              as="a"
+              href={eventRecap}
+              data-analytics-click="Virtual Universe resources, CTA click, cta: see-whats-new; location: recap"
+              variant="primary"
+              size="medium"
+            >
               See what's new
             </Button>
           </CTABanner.ButtonGroup>

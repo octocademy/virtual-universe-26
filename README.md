@@ -18,6 +18,15 @@ npm run dev
 
 Open <http://127.0.0.1:5173/virtual-universe-26/>.
 
+## Analytics
+
+The page loads GitHub's first-party Hydro measurement script, configured in
+`src/index.html` to use the `virtual-universe-resources` collector app.
+It automatically tracks full page views and clicks on links and buttons.
+Primary CTAs in `src/prototype/Custom.tsx` include `data-analytics-click`
+attributes with stable CTA and location labels for reporting.
+See the [Hydro setup instructions](https://github.com/github/hydro-analytics-instrumentation#installation).
+
 ## GitHub Pages
 
 Keep the deployable `index.html` and generated `assets/` at the repository root
