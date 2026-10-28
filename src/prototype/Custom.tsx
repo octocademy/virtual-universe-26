@@ -394,7 +394,7 @@ function AutomationActions() {
           Create an automation
         </Button>
         <Text as="p" size="100" variant="muted" className={styles.hint}>
-          Explore the GitHub Universe announcements.
+          Opens a Copilot app canvas with step-by-step guides.
         </Text>
       </div>
       <div className={styles.guides}>
