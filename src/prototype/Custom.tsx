@@ -364,7 +364,7 @@ function ArtifactActions() {
     <div>
       <Button
         as="a"
-        href="https://github.com/octodemo/virtual-universe-26/tree/main/github-virtual-universe-highlights/attach-a-cheat-sheet-artifact"
+        href="https://github.com/copilot/app/launch?open=ghapp%3A%2F%2Fsession%2Fnew%3Frepo%3Doctodemo%252Fvirtual-universe-26%26canvas%3Duniverse-cheatsheet-artifact&utm_source=virtual-universe-k2k-segment-3-issue-artifacts-tutorial&utm_medium=web&utm_campaign=universe-2026"
         data-analytics-click="Virtual Universe resources, CTA click, cta: create-artifact; location: artifacts"
         variant="primary"
         size="medium"
